@@ -3,8 +3,11 @@
     <!-- 头部 -->
     <div class="overviewHeader">
       <h2 class="overviewTitle">小说原文</h2>
-      <p class="overviewSub">查看小说原文</p>
+      <p class="overviewSub">AI 创作助手 · 查看小说原文</p>
     </div>
+
+    <!-- AI 创作助手 -->
+    <novelCreation @refresh="getNovel" />
 
     <!-- 操作栏 -->
     <t-card :bordered="false" class="summaryCard">
@@ -76,6 +79,7 @@
 import { MessagePlugin } from "tdesign-vue-next";
 import axios from "@/utils/axios";
 import purgeNovel from "./components/purgeNovel.vue";
+import novelCreation from "./components/novelCreation.vue";
 import store from "@/stores";
 const { projectId } = storeToRefs(store());
 
