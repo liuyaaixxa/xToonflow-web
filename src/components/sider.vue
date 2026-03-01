@@ -3,7 +3,7 @@
     <header class="sidebarHeader">
       <h1 class="sidebarTitle">
         <img class="logo" src="@/assets/logo.png" />
-        Toonflow
+        xToonflow
       </h1>
       <p class="sidebarSubtitle">AI驱动的短剧创作工具</p>
     </header>

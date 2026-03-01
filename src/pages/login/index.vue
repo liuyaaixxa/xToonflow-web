@@ -16,7 +16,7 @@
       </a-modal>
       <div class="logoBox">
         <img :src="logo" alt="logo" class="logo-img" />
-        <span class="logo-text">Toonflow</span>
+        <span class="logo-text">xToonflow</span>
       </div>
       <a-form :model="state.user" :rules="state.rules" ref="ruleFormRef" @finish="handleFinish" class="login-form">
         <a-form-item name="username">

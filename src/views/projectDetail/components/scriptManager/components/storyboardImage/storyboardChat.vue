@@ -111,7 +111,7 @@ const history = ref<ChatMessage[]>([
     data: [
       {
         type: "text",
-        text: "欢迎使用Toonflow！我已经收到你的剧本与相关资产,请和我说“开始”启动生成分镜图的制作吧！",
+        text: "欢迎使用xToonflow！我已经收到你的剧本与相关资产,请和我说\"开始\"启动生成分镜图的制作吧！",
       },
     ],
   },
@@ -528,7 +528,7 @@ function cleanHistory() {
       data: [
         {
           type: "textWithConfirm",
-          text: "欢迎使用Toonflow！我已经收到你的剧本与相关资产,请和我说“开始”启动生成分镜图的制作吧！",
+          text: "欢迎使用xToonflow！我已经收到你的剧本与相关资产,请和我说\"开始\"启动生成分镜图的制作吧！",
           button: [{ text: "开始制作", type: "primary" }],
           confirm: undefined,
         },

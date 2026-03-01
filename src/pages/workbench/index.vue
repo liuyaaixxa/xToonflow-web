@@ -5,7 +5,7 @@
         <template #logo>
           <h1 class="sidebarTitle">
             <img class="logo" src="@/assets/logo.png" />
-            <span v-show="!collapsed">Toonflow</span>
+            <span v-show="!collapsed">xToonflow</span>
           </h1>
         </template>
         <t-menu-item v-for="item in menuList" :key="item.path" :value="item.path">

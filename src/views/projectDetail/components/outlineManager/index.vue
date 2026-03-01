@@ -138,7 +138,7 @@ const messageList = computed(() => {
         id: uuidv4(),
         identity: "assistant",
         role: "助手",
-        data: [{ type: "text", text: "欢迎使用Toonflow!请选择小说后开始AI对话来生成小说故事线与大纲。如您需要我开始为您工作您可以跟我说开始" }],
+        data: [{ type: "text", text: "欢迎使用xToonflow!请选择小说后开始AI对话来生成小说故事线与大纲。如您需要我开始为您工作您可以跟我说开始" }],
       },
     ];
   }
@@ -406,7 +406,7 @@ function handleCleanHistory() {
       id: uuidv4(),
       identity: "assistant",
       role: "助手",
-      data: [{ type: "text", text: "欢迎使用Toonflow!请选择小说后开始AI对话来生成小说故事线与大纲。如您需要我开始为您工作您可以跟我说开始" }],
+      data: [{ type: "text", text: "欢迎使用xToonflow!请选择小说后开始AI对话来生成小说故事线与大纲。如您需要我开始为您工作您可以跟我说开始" }],
     },
   ];
 }
